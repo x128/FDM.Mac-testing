@@ -7,27 +7,16 @@
 //        BOOST_ASIO_DYN_LINK
 
 
-
 //define TORRENT_VERBOSE_LOGGING 1
 #define TORRENT_DEBUG 1
 #define TORRENT_LOGGING 1
 //define TORRENT_USE_IOSTREAM 1
 
 
-
-
-
 #include <libtorrent/entry.hpp>
 #include <libtorrent/session.hpp>
-//#include <libtorrent/torrent_info.hpp>
-//#include <libtorrent/fingerprint.hpp>
 
-//#include <libtorrent/bencode.hpp>
-//#include <libtorrent/lazy_entry.hpp>
-
-//#include <boost/asio.hpp>
 #include <boost/filesystem.hpp>
-//#include "boost"
 
 int main(int argc, char * argv[])
 {

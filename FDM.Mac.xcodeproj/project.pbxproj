@@ -1,0 +1,266 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CB652D2188E8A0000B27E50 /* libboost_system.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB652D1188E8A0000B27E50 /* libboost_system.a */; };
+		2CFE021C18CEECD6007C22CA /* libboost_filesystem.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CFE021B18CEECD6007C22CA /* libboost_filesystem.a */; };
+		2CFE021E18D02F43007C22CA /* libtorrent-rasterbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CFE021D18D02F43007C22CA /* libtorrent-rasterbar.a */; };
+		CD261E042E41551D9491B3BF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD26124BD36EF18F3619EFA1 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CD26186DCBC68C0631C584F6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2CB652D1188E8A0000B27E50 /* libboost_system.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_system.a; path = ../../../usr/local/lib/libboost_system.a; sourceTree = "<group>"; };
+		2CFE021B18CEECD6007C22CA /* libboost_filesystem.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_filesystem.a; path = ../boost_1_55_0/stage/lib/libboost_filesystem.a; sourceTree = "<group>"; };
+		2CFE021D18D02F43007C22CA /* libtorrent-rasterbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libtorrent-rasterbar.a"; path = "../../../usr/local/lib/libtorrent-rasterbar.a"; sourceTree = "<group>"; };
+		CD26124BD36EF18F3619EFA1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CD2615704347388529120CB0 /* FDM.Mac */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FDM.Mac; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD261A9833AAC3B25339A6E2 /* FDM_Mac.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = FDM_Mac.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CB652CF188E89AB00B27E50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CFE021E18D02F43007C22CA /* libtorrent-rasterbar.a in Frameworks */,
+				2CFE021C18CEECD6007C22CA /* libboost_filesystem.a in Frameworks */,
+				2CB652D2188E8A0000B27E50 /* libboost_system.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD2610A0BDC4E36FEBA85747 = {
+			isa = PBXGroup;
+			children = (
+				2CFE021D18D02F43007C22CA /* libtorrent-rasterbar.a */,
+				2CFE021B18CEECD6007C22CA /* libboost_filesystem.a */,
+				2CB652D1188E8A0000B27E50 /* libboost_system.a */,
+				CD2616C3B5D7DD0A47EE49A0 /* Products */,
+				CD261E8D97EB844BE842ADE8 /* FDM.Mac */,
+			);
+			sourceTree = "<group>";
+		};
+		CD2616C3B5D7DD0A47EE49A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD2615704347388529120CB0 /* FDM.Mac */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD261E8D97EB844BE842ADE8 /* FDM.Mac */ = {
+			isa = PBXGroup;
+			children = (
+				CD26124BD36EF18F3619EFA1 /* main.cpp */,
+				CD261A9833AAC3B25339A6E2 /* FDM_Mac.1 */,
+			);
+			path = FDM.Mac;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD26185FC32E6DB620174A5D /* FDM.Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD261C25ED46ED19F3FB1AF3 /* Build configuration list for PBXNativeTarget "FDM.Mac" */;
+			buildPhases = (
+				CD26186DCBC68C0631C584F6 /* CopyFiles */,
+				CD261C359730D492E974BB9C /* Sources */,
+				2CB652CF188E89AB00B27E50 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDM.Mac;
+			productName = FDM.Mac;
+			productReference = CD2615704347388529120CB0 /* FDM.Mac */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD2610F26BF2816E4B3654F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+			};
+			buildConfigurationList = CD261153A88F5C69B3BA18EB /* Build configuration list for PBXProject "FDM.Mac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD2610A0BDC4E36FEBA85747;
+			productRefGroup = CD2616C3B5D7DD0A47EE49A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD26185FC32E6DB620174A5D /* FDM.Mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD261C359730D492E974BB9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD261E042E41551D9491B3BF /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CD2613DD55A07C64C37DB878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include/,
+					"/Projects/FDM_X/libtorrent-rasterbar-0.16.13/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					/Projects/FDM_X/boost_1_55_0/stage/lib,
+				);
+				OTHER_LDFLAGS = "-L/Projects/FDM_X/boost_1_55_0/stage/lib";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD2615B5AB4D1A9429CB3EBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/local/include/,
+					"/Projects/FDM_X/libtorrent-rasterbar-0.16.13/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					/Projects/FDM_X/boost_1_55_0/stage/lib,
+				);
+				OTHER_LDFLAGS = "-L/Projects/FDM_X/boost_1_55_0/stage/lib";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD26175E360CF4219BD4C98F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include/;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD261D8C0150D17DFCA129C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include/;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD261153A88F5C69B3BA18EB /* Build configuration list for PBXProject "FDM.Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD26175E360CF4219BD4C98F /* Release */,
+				CD261D8C0150D17DFCA129C8 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD261C25ED46ED19F3FB1AF3 /* Build configuration list for PBXNativeTarget "FDM.Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD2613DD55A07C64C37DB878 /* Release */,
+				CD2615B5AB4D1A9429CB3EBF /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD2610F26BF2816E4B3654F1 /* Project object */;
+}
